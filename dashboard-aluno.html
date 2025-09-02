@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard do Aluno</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard aluno">
+  <header>
+    <h1>Área do Aluno</h1>
+    <button onclick="logout()">Sair</button>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Progresso</h2>
+      <p>Você concluiu <strong>65%</strong> dos módulos!</p>
+      <progress value="65" max="100"></progress>
+    </section>
+
+    <section class="card">
+      <h2>Medalhas</h2>
+      <ul>
+        <li>🥇 Desafios de Lógica</li>
+        <li>🥈 Robótica com Arduino</li>
+        <li>🥉 Programação Scratch</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Ranking</h2>
+      <p>Sua posição: <strong>#12</strong> na turma!</p>
+    </section>
+  </main>
+
+  <script>
+    function logout() {
+      localStorage.removeItem("usuarioLogado");
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>

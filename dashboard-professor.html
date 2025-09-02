@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard do Professor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard professor">
+  <header>
+    <h1>Área do Professor</h1>
+    <button onclick="logout()">Sair</button>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Turmas</h2>
+      <ul>
+        <li>Turma A – 20 alunos</li>
+        <li>Turma B – 18 alunos</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Relatórios</h2>
+      <p>Média da turma: <strong>78%</strong> de conclusão</p>
+    </section>
+
+    <section class="card">
+      <h2>Ferramentas</h2>
+      <button>Criar novo desafio</button>
+      <button>Enviar material extra</button>
+    </section>
+  </main>
+
+  <script>
+    function logout() {
+      localStorage.removeItem("usuarioLogado");
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>

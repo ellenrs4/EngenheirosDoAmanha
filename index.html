@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Engenheiros do Amanhã – Robótica & Programação Gamificada</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- Nav -->
+    <header class="site-header">
+        <div class="container nav-wrap">
+            <img src="rapousa.png" alt="Rapousa" class="icon-fox">
+            <div class="brand">Pequenos Robóticos</div>
+            <nav class="nav">
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#alunos">Aventuras</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <button id="openLogin" class="btn btn-sm btn-light">Entrar / Cadastrar</button>
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">☰</button>
+        </div>
+    </header>
+
+    <!-- Incio -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <h1>Cativamos mentes, <span>construimos futuros✨</span></h1>
+                <p>Embarque em uma jornada estelar, conquiste missões incríveis <b>e descubra como capturar ideias,
+                        emoções e invenções!</b> Aprender nunca foi tão magico- colecione medalhas, crie robôs e brilhe
+                    como uma estrela!</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary" id="ctaComecar">🚀 Começar a Missão</button>
+                    <a href="#sobre" class="btn btn-ghost">Saiba Mais</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <h3>+100</h3>
+                        <p>Alunos ativos</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>+100</h3>
+                        <p>Professores</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>99%</h3>
+                        <p>Satisfação</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="orb "></div>
+                <img class="logo" src="logo1.png" alt="Logo Engenheiros" />
+            </div>
+        </div>
+        <div class="floating-cta">
+            <button class="btn btn-accent" id="floatingCta">Jogar Agora</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <div class="rob">
+                <img class="robo" src="roboazulescuro.png" alt="Robo">
+            </div>
+            <h2>Sobre o sistema</h2>
+            <div class="grid-2">
+                <div>
+                    <p>O <b>Engenheiros do Amanhã</b> conecta conteúdos de programação (Scratch, Python, C++) com
+                        robótica prática
+                        (Arduino, Lego, micro:bit). Tudo com metodologia gamificada, relatórios inteligentes e
+                        acompanhamento para famílias.</p>
+                    <ul class="ticks">
+                        <li>Trilhas guiadas com desafios semanais</li>
+                        <li>Relatórios por aluno e por turma</li>
+                        <li>Integração com simuladores online</li>
+                    </ul>
+                </div>
+                <div class="card highlight">
+                    <h3>Por que escolher?</h3>
+                    <p>Construído com educadores e engenheiros, focado em engajamento e resultados.</p>
+                    <div class="pill-row">
+                        <span class="pill">Gamificação</span>
+                        <span class="pill">Relatórios</span>
+                        <span class="pill">Projetos STEAM</span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="alunos" class="section alt">
+        <div class="container">
+            <h2>Como funciona a jornada?</h2>
+            <p class="section-sub">Você será um explorador das estrelas, aprendendo a programar robôs de forma
+                divertida! Cada desafio é uma constelação a ser descoberta.</p>
+
+            <div class="cards-grid">
+                <div class="card">
+                    <img src="missoesdivertidas.png">
+                    <h4>Aprenda brincando com fases interativas.</h4>
+                </div>
+                <div class="card">
+                    <img src="robosamigos -Photoroom.png">
+                    <h4>Construa e programe seus robozinhos de aventura.</h4>
+                </div>
+                <div class="card">
+                    <img src="medalhadourada (2).png">
+                    <h4>Ganhe recompensas a cada constelação vencida.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MÓDULOS -->
+    <section id="modulos" class="section">
+        <div class="container">
+            <h2>Módulos de Ensino</h2>
+            <div class="cards-grid1">
+                <div class="card1">
+                    <img src="1-Photoroom (1).png">
+                    <h5>Programação Básica</h5>
+                    <p>Scratch e Blockly</p>
+                </div>
+                <div class="card1">
+                    <img src="2-Photoroom (1).png">
+                    <h5>Programação Avançada</h5>
+                    <p>Python e C++</p>
+                </div>
+                <div class="card1">
+                    <img src="3-Photoroom (1).png">
+                    <h5>Robótica Prática</h5>
+                    <p>Arduino, Lego e micro:bit</p>
+                </div>
+                <div class="card1">
+                    <img src="4-Photoroom (1).png">
+                    <h5>Projetos STEAM</h5>
+                    <p>Ciências, Matemática e Engenharia</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section alt">
+        <div class="container grid-2">
+            <div>
+                <h2>Fale com a gente</h2>
+                <p>Tem dúvidas? Quer uma demonstração? Envie uma mensagem.</p>
+                <ul class="ticks">
+                    <li>Atendimento por WhatsApp e chat</li>
+                    <li>FAQ por público (alunos, professores e responsáveis)</li>
+                    <li>Email institucional: contato@engenheiros.edu</li>
+                </ul>
+            </div>
+            <form class="card form">
+                <div class="form-group">
+                    <input type="text" placeholder="Seu nome" required />
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Seu e-mail" required />
+                </div>
+                <div class="form-group">
+                    <textarea rows="4" placeholder="Mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <div class="brand">PequenosRoboticos</div>
+                <p>© 2025 • Todos os direitos reservados</p>
+            </div>
+            <div class="links">
+                <a href="#privacidade">Privacidade</a>
+                <a href="#termos">Termos</a>
+                <a href="#suporte">Suporte</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Login/Cadastro -->
+    <div id="loginModal" class="modal" aria-hidden="true">
+
+        <img src="logo1.png" alt="Logo Engenheiros" class="modal-bg-logo">
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="close" id="btnFecharLogin" aria-label="Fechar">&times;</button>
+            <h3 id="modalTitle">Acesse sua conta</h3>
+            <form id="loginForm" class="auth-form">
+                <input type="email" id="email" placeholder="Email" required />
+                <input type="password" id="senha" placeholder="Senha" required />
+                <label for="tipo" class="label">Tipo de usuário</label>
+                <select id="tipo">
+                    <option value="Aluno">Aluno</option>
+                    <option value="Professor">Professor</option>
+                    <option value="Pai">Pai</option>
+                </select>
+
+                <div class="auth-extra">
+                    <label class="custom-checkbox">
+                        <input type="checkbox" id="new-user" />
+                        <span class="checkmark"></span>
+                        Sou novo aqui
+                    </label>
+                    <a href="#" class="link-register">Cadastrar</a>
+                </div>
+
+                <button type="submit" class="btn btn-accent">Entrar</button>
+                <p class="muted hint">Ao continuar você concorda com nossos termos e política.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal Escolha de Skin -->
+    <div id="skinModal" class="modal" aria-hidden="true">
+        <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="skinTitle">
+            <button class="close" id="btnFecharSkin">&times;</button>
+            <h3 id="skinTitle">Escolha sua Skin e Nickname</h3>
+
+            <div class="skin-options">
+                <img src="skin1.png" class="skin" data-skin="skin1">
+                <img src="skin2.png" class="skin" data-skin="skin2">
+                <img src="logo1.png" class="skin" data-skin="skin3">
+                <img src="roboazulescuro.png" class="skin" data-skin="skin4">
+            </div>
+
+            <input type="text" id="nickname" placeholder="Digite seu nickname" required />
+
+            <button id="btnSalvarSkin" class="btn btn-accent">Confirmar</button>
+        </div>
+    </div>
+
+
+    <canvas id="stars"></canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

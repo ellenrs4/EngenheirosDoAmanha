@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard dos Pais</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard pais">
+  <header>
+    <h1>Área dos Pais</h1>
+    <button onclick="logout()">Sair</button>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Progresso do filho</h2>
+      <p>Concluiu <strong>40%</strong> dos módulos.</p>
+    </section>
+
+    <section class="card">
+      <h2>Conquistas</h2>
+      <ul>
+        <li>🏅 Primeiro projeto no Scratch</li>
+        <li>🏅 Desafio de Robótica em equipe</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Agenda</h2>
+      <ul>
+        <li>📅 Workshop Arduino – 05/09</li>
+        <li>📅 Competição de Robótica – 12/09</li>
+      </ul>
+    </section>
+  </main>
+
+  <script>
+    function logout() {
+      localStorage.removeItem("usuarioLogado");
+      window.location.href = "index.html";
+    }
+  </script>
+</body>
+</html>

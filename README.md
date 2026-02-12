@@ -3,7 +3,7 @@
 🚀 **Engenheiros do Amanhã** é um site responsivo criado para apresentar seções com conteúdo educacional sobre robótica.  
 Este projeto tem foco em layout visual limpo e usabilidade, utilizando HTML, CSS e um pouco de JavaScript para navegação/interatividade.
 
-👉 Visite o site ao vivo: https://ellenrs4.github.io/engversao2/
+👉 Visite o site ao vivo: https://ellenrs4.github.io/EngenheirosDoAmanha/
 
 ---
 
